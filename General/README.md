@@ -1,0 +1,21 @@
+# HIS.General to SDA class mappings
+
+- [ ] ApprovalStatus
+- [ ] BloodType
+- [ ] CancelReason
+- [x] City --> HS.SDA3.Address.City
+- [x] Country --> HS.SDA3.Address.Country
+- [ ] Department
+- [ ] Designation
+- [ ] DiscountType
+- [x] District --> HS.SDA3.Address.County
+- [ ] FormulaType
+- [x] InvoiceSettlementStatus --> HS.SDA3.CodeTableDetail.PaymentStatus
+- [x] MaritalStatus --> HS.SDA3.Patient.MaritalStatus
+- [ ] NationalIdType
+- [x] Religion --> HS.SDA3.Patient.Religion
+- [x] Sex --> HS.SDA3.Patient.Gender
+- [x] State --> HS.SDA3.Address.State
+- [ ] SubDistrict
+- [ ] Tax
+- [ ] Title
